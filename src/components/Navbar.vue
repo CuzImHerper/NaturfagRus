@@ -30,12 +30,12 @@ window.onclick = function (e) {
     </div>
 
     <div class="navbar-right">
-      <router-link to="/"><span>hjem</span></router-link>
+      <RouterLink to="/"><span>hjem</span></RouterLink>
 
       <div class="meny">
-        <router-link to="/alkohol">
+        <RouterLink to="/alkohol">
           <span>Alkohol</span>
-        </router-link>
+        </RouterLink>
       </div>
     </div>
   </nav>
@@ -155,7 +155,6 @@ nav a {
 .navbar-right span {
   font-size: 20px;
   color: #000;
-  padding-bottom: 5px;
   font-weight: 400;
   cursor: pointer;
   user-select: none;

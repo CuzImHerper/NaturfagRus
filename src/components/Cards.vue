@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink } from 'vue-router';
+
 const props = defineProps({
     image: String,
     title: String,
@@ -8,11 +10,13 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="card-container">
-        <img :src="image" alt="card image" />
-        <h1>{{ props.title }}</h1>
-        <p>{{ props.description }}</p>
-    </div>
+    <RouterLink to="/alkohol">
+        <div class="card-container">
+            <img :src="image" alt="card image" />
+            <h1>{{ props.title }}</h1>
+            <p>{{ props.description }}</p>
+        </div>
+    </RouterLink>
 </template>
 
 <style scoped>
