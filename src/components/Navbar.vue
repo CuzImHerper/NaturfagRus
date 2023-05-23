@@ -24,30 +24,18 @@ window.onclick = function (e) {
   <nav id="myNav">
     <div class="logo">
       <RouterLink to="/" class="navbar-brand">
-        <img src="./images/drugas.png">
+        <img src="/src/images/drugas.png">
         <p>DRUGAS</p>
       </RouterLink>
     </div>
 
     <div class="navbar-right">
-      <RouterLink to="/"><span>hjem</span></RouterLink>
+      <router-link to="/"><span>hjem</span></router-link>
 
-      <div class="meny dropdown">
-        <div class="dropbtn" @click="myFunction()">
-          <p class="dropbtn">Meny</p>
-          <Icon
-            icon="fa6-solid:angle-down"
-            class="dropbtn"
-            color="#4D878F"
-          />
-        </div>
-
-
-        <div class="dropdown-content" id="myDropdown">
-          <li>
-            <RouterLink to="/alkohol">Alkohol</RouterLink>
-          </li>
-        </div>
+      <div class="meny">
+        <router-link to="/alkohol">
+          <span>Alkohol</span>
+        </router-link>
       </div>
     </div>
   </nav>
@@ -63,6 +51,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   overflow-y: hidden;
+}
+
+.activated-link {
+  border-bottom: 3px rgb(20, 70, 70) solid;
+}
+
+.meny .activated-link {
+  border-bottom: 3px rgb(20, 70, 70) solid;
 }
 
 .navbar a:hover,
@@ -125,7 +121,6 @@ nav a {
   user-select: none;
 }
 
-
 .p-dropdown-trigger {
   justify-content: flex-start;
 }
@@ -161,7 +156,6 @@ nav a {
   font-size: 20px;
   color: #000;
   padding-bottom: 5px;
-  border-bottom: 3px rgb(20, 70, 70) solid;
   font-weight: 400;
   cursor: pointer;
   user-select: none;

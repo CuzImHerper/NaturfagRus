@@ -13,7 +13,8 @@ const router = createRouter({
       name: 'alkohol',
       component: () => import('../pages/Alkohol.vue')
     }
-  ]
+  ],
+  linkActiveClass: 'activated-link',
 })
 
 export default router
