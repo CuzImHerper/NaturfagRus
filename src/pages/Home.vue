@@ -25,6 +25,7 @@ const cards = [
 main {
   display: flex;
   flex-direction: row;
+  padding: 50px 0 50px 0;
   justify-content: space-evenly;
 }
 
