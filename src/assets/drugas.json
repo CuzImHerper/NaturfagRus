@@ -1,7 +1,14 @@
 {
     "1": {
-        "id": "Alkohol",
-        "description": "Alkohol er blant de vanligste og mest brukte rusmidlene i verden. Det har vært i bruk i flere tusen år og var hovedsakelig brukt i medisinsk og religiøs sammenheng. I dag er alkohol oftest involvert i feiringer, måltid og sosiale settinger.",
-        "subtitle1": "Hva er alkohol?"
+        "id": "Info",
+        "start": "Alkohol er blant de vanligste og mest brukte rusmidlene i verden. Det har vært i bruk i flere tusen år og var hovedsakelig brukt i medisinsk og religiøs sammenheng. I dag er alkohol oftest involvert i feiringer, måltid og sosiale settinger.",
+        "mid": "Hva er alkohol?",
+        "end": "Blablabla"
+    },
+    "2": {
+        "id": "Samfunnsproblem",
+        "start": "Alkohol kan regnes som det rusmidlet som skaper størst samfunnsproblemer sammenlignet med andre rusmidler. Både for den som drikker, men også venner og familie, kollegaer, arbeidsplass og helsevesen. Det blir fort dyrt for samfunnet når helsevesenet må behandle mennesker med rusproblemer eller rusavhengighet. Dersom det har vært en trafikkulykke hvor en ruspåvirket fører og flere involverte blir skadet, kan dette få katastrofale følger. Både helsemessig og økonomisk for de involverte, men også for helsevesenet. Noen alkoholavhengige personer trenger i tillegg støtte for å klare seg økonomisk ettersom de gjerne ikke klarer å jobbe i samme kapasitet som en som ikke drikker. ",
+        "mid": "Samtidig finnes det en stigma rundt mennesker med alkohol- og rusproblemer. Dette gjør det vanskeligere for dem som er avhengig å oppsøke hjelp. Samfunnet forventer at man selv skal kunne kontrollere alkoholinntaket og hvis ikke dømmes man for det. Ideelt sett skulle man ha spurt om hjelp før forbruket eskalerer seg til et alvorlig problem.",
+        "end": "Som nevnt påvirker et dårlig forhold til alkohol ikke bare deg selv, men dem rundt deg. Alkohol har stor sammenheng med tilfeller av blant annet vold, trakassering, voldtekt og mishandling. Ifølge kriminolog Nils Christie endrer vi oss på den måten vi liker når vi drikker alkohol. Altså betyr dette at vi kan bli mer åpne, mer pratsomme og mer livlig. Derimot, kan dette også bety at vi føler oss friere til å utrykke negativ adferd. Han forteller at dem som er aggressiv blir mer aggressiv og dermed trakasserer mer, slår mer og krangler mer. Det er derfor holdningen vår som avgjør hvordan alkohol påvirker oss og gjerne ikke alkoholet i seg selv."
     }
 }

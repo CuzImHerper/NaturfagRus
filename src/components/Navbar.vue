@@ -34,7 +34,7 @@ window.onclick = function (e) {
 
       <div class="meny">
         <RouterLink to="/alkohol">
-          <span>Alkohol</span>
+          <span>alkohol</span>
         </RouterLink>
       </div>
     </div>
